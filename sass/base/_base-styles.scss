@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: $primary-text-color;
+  font-size: normal;
+  margin: 0px;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+}
+
+.section {
+  padding-top: 94px;
+}
+
+.hidden-elem {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: -1px;
+}

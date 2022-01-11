@@ -1,0 +1,36 @@
+.feature-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  &__item {
+    width: 270px;
+    margin-left: 30px;
+  }
+}
+
+.feature-list__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: $bcg-secondary;
+}
+
+.feature-list__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $title-text-color;
+}
+
+.feature-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
